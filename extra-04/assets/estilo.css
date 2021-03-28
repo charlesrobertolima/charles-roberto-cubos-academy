@@ -1,0 +1,147 @@
+@font-face{
+    font-family:"Comicate";
+    src: url(COMICATE.TTF);
+}
+
+body{
+    background-color:  #F7F8F7;
+    font-family: cursive;
+    color:#2C2D29;
+    background-image: url(background.jpg);
+    background-position: top left;
+    background-size: auto;
+   background-repeat: repeat;
+}
+.nome-do-filme{
+    font-family: "Comicate", monospace;
+    text-decoration: underline;
+}
+
+.nome-do-filme-1 {
+    font-family: "Comicate", monospace;
+}
+
+.nome-do-filme-3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:darkgreen;
+    text-decoration: bold;
+}
+
+.nome-do-filme-2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkgreen;
+  font-weight: bold;
+}
+
+h2 {
+    font-family: "Comicate", monospace;
+    text-decoration: none;
+}
+
+.outra-cor-texto {
+    color: darkgreen;
+}
+
+.muda-cor-texto {
+    color: brown;
+}
+.card-principal img{
+    max-height: 500px;
+    box-shadow: 3px 0 8px #000;
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+   text-align:center;
+   font-size: 60px;
+}
+h2{
+    margin-top: 0;
+    font-family: "Godzilla", cursive;
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 3px;
+}
+p{
+    display:inline-block;
+    text-align: justify;
+    font-size: 16px;
+    vertical-align: top;
+}
+.card-curiosidades, .card-musicas{
+    border-radius: 10px;
+    padding: 25px;
+    max-width: 50%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.card-curiosidades{
+    background-color:crimson;
+    color:#F7F8F7;
+}
+.card-curiosidades li{
+    text-align: justify;
+    font-size: 20px;
+    list-style-type: decimal;
+}
+.card-musicas{
+    background-color: blue;
+}
+.card-banda img{
+    border-radius: 3px;
+    max-height: 150px;
+}
+.card-banda a{
+    text-decoration: none;
+}
+.card-banda p{
+    max-width: 45%;
+    text-align: justify;
+    margin-left: 25px;
+}
+.card-audio{
+    margin-top: 15px;
+} 
+
+.rodape-prin
+{
+    background-color:  rgb(0, 0, 0);       
+    clear: both;
+    height: 60px;      
+    color: rgb(250,255,250);
+    font-size: 15px;
+    font-family: "arial", sans-serif;
+}
+
+.rodape-prin span {
+  
+  float: right;
+  width:45%;
+  line-height: 60px; 
+  
+}
+
+.icones-sociais ul {
+  
+  display: inline-block;
+  height: inherit;
+  float: left;
+  width: 75%;
+  margin: 0;
+  line-height: 60px;
+  
+}
+
+.icones-sociais li
+{
+    display: inline-block;
+    float: left;
+    margin-left: 5px;
+    margin-top: 7px;
+    width: 40px;
+    height: inherit;
+}
